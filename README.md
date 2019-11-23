@@ -6,13 +6,16 @@
   - The cashier is able to place orders without having to create an account. While the baristas need to log in, in-order to see the list of drinks they must complete for that given day. Once drinks are completed they can click on the order, causing the computer to automagically say the order out-loud.
 
 * **Image of home Page**
-![](public/home.png)
+
+![](public/img/home.png)
 
 * **Image of SignUp Page**
-![](public/signup.png)
+
+![](public/img/signup.png)
 
 * **Image of barista profile Page**
-![](public/profile.png)
+
+![](public/img/profile.png)
 
 ## How It's Made:
 
@@ -33,7 +36,8 @@
       * The first fetch makes a post request to the server sending the 'customer's name','order' and 'barista's name' to mongoDB, creating a document in the 'completed' collection
       * The second fetch makes a delete request to the server with the 'customers name' and 'order'.
           * however before accessing the database say module's method is invoked causing the computer to say the following line:
-            ```say.speak(`${req.body.name} your ${req.body.order} is ready`)
+            ```
+            say.speak(`${req.body.name} your ${req.body.order} is ready`)
             ```
           * This request goes into the 'orders' collection deleting that specific document
   * Lastly, the dom is updated displaying the completed order under the 'completed' section of the profile.ejs page
