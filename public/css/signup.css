@@ -1,0 +1,12 @@
+body{
+  background-image: url(/img/back2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#big{
+    margin-top: 81px;
+    color: rosybrown;
+}
+.col-sm-6{
+background-size: contain;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/profile.css">
+  </head>
+  <body>
+    <div class="jumbotron">
+  <h1 class="display-3">Barista: <%= user.local.email %></h1>
+    <ul class="lead">
+      <% for(let i =0;i<orders.length;i++){ %>
+      <li>
+          <span><%= orders[i].name %></span>
+          <span><%= orders[i].order %></span>
+      </li>
+      <% } %>
+    </ul>
+  <hr class="my-4">
+  <section class="lead">
+    Completed:
+  </section>
+</div>
+    <script src="/js/profile.js" charset="utf-8"></script>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+body{
+  background-image: url(/img/coffee2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1{
+  font-size: 78px;
+}
+
+h3{
+  font-size: 20px;
+}
+li{
+  list-style: decimal-leading-zero;
+}
+.jumbotron{
+  background-color: rosybrown;
+}
+span{
+  cursor: pointer;
+}

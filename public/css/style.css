@@ -1,0 +1,35 @@
+body{
+  background-image: url(/img/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+h1{
+  color: peru;
+  margin-top: 10PX;
+  padding-top: 106px;
+  font-size: 77px;
+}
+.login{
+  /* border: 2px solid white; */
+  width: 100%;
+  /* float:left; */
+  position: fixed;
+ /* color: rgba(129,92,77);  */
+ color: black;
+}
+.form-group{
+  float: left;
+  border-radius: 5px;
+}
+.log{
+  border-radius: 5px;
+}
+.orderPlace{
+  border-radius: 5px;
+  width: 17%;
+  height: 18px;
+}
+button{
+  cursor: pointer;
+}
