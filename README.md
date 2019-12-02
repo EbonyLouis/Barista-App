@@ -2,7 +2,7 @@
 
 # Goal: Recreate the order dynamic between a cashier and barista at any local coffee shop
 
-**Project Title: The Gardner Roasting Co.**
+**Project Title: The Roasting Co.**
   - The cashier is able to place orders without having to create an account. While the baristas need to log in, in-order to see the list of drinks they must complete for that given day. Once drinks are completed they can click on the order, causing the computer to automagically say the order out-loud.
 
 * **Image of home Page**
